@@ -18,7 +18,7 @@ In this software system, admin can save multiple MCQ with 4 options with their a
 If a user logs in by admin credential, system will say the admin user to add new questions to question bank and if any user logs in by student credential, system will say the user to give quiz.
 
 To enable the login feature to your system, create a users.json file where admin user info and student user info will be contained.
-
+```js
 [
 
 {
@@ -36,7 +36,7 @@ To enable the login feature to your system, create a users.json file where admin
 }
 
 ]
-
+```
 
 Output:[For admin user]
 
@@ -93,7 +93,7 @@ Admin: 4
 System:> Saved successfully! Do you want to add more questions? (press s for start and q for quit)
 
 Here is the example of architecture of quiz.json file.
-
+```js
 [
 
 {
@@ -117,7 +117,7 @@ Here is the example of architecture of quiz.json file.
 }
 
 ]
-
+```
 Now its time to role play as a student. When you login as a student to the system, system will generate 10 random questions from the quiz bank.
 
 Here No questions will be repeated in the same quiz, that is ensured.
@@ -144,7 +144,7 @@ Student:> 4
 
 [Question 2] Which is whitebox testing technique?
 
- 1.Equivalent Partitioning
+1.Equivalent Partitioning
 
 2. Boundary value testing
 
