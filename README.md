@@ -19,8 +19,24 @@ If a user logs in by admin credential, system will say the admin user to add new
 
 To enable the login feature to your system, create a users.json file where admin user info and student user info will be contained.
 
-<pre>  [ { "username": "admin", "password": "1234", "role": "admin" }, { "username": "salman", "password": "1234", "role": "student" } ]  </pre>
+```json
+  [
 
+{
+
+"username": "admin",
+"password": "1234",
+"role": "admin"
+},
+
+{
+
+"username": "salman",
+"password": "1234",
+"role": "student"
+}
+
+]
 
 Output:[For admin user]
 
