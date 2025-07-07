@@ -144,7 +144,7 @@ Student:> 4
 
 [Question 2] Which is whitebox testing technique?
 
-1.Equivalent Partitioning
+ 1.Equivalent Partitioning
 
 2. Boundary value testing
 
