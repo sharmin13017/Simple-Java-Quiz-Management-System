@@ -35,7 +35,8 @@ To enable the login feature to your system, create a users.json file where admin
 "role": "student"
 }
 
-]``
+]
+
 
 Output:[For admin user]
 
